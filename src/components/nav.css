@@ -10,7 +10,7 @@
     flex-direction: row;
     list-style: none;
 }
-.ul li{
+.ul .item{
     color: white;
     margin:7px;
     
@@ -21,4 +21,8 @@
     border-bottom: 2px solid #F187CB;
     transition: all 2ms;
     
+}
+#active{
+    border-bottom: 2px solid #F187CB;
+    margin-bottom: 1px;
 }
