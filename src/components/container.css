@@ -7,9 +7,9 @@
 }
 .container .navbar{
     flex: 10%;
-    border: 1px solid red;
+    
 }
 .container .outlet{
     flex:90%;
-    border: 1px solid blue;
+    
 }

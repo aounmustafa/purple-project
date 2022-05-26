@@ -6,7 +6,7 @@ const Nav = () => {
   const location = useLocation();
   const items = [
     { title: "About", link: "/" },
-    { title: "UI/UX Design", link: "" },
+    { title: "UI/UX Design", link: "/uiux" },
     { title: "Illustration", link: "" },
     { title: "Case Study", link: "" },
   ];
