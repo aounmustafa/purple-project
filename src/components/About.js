@@ -1,14 +1,11 @@
 import React from "react";
 import "./about.css";
-// import puzzle from "./assets/Unionpuzzle.png";
-
+import puzzle from "../assets/Unionpuzzle.png";
 const About = () => {
   return (
     <div className="about_container">
       <div className="left_side">
-        <div className="puzzle"></div>
-
-        {/* <img src={puzzle} alt="puzzle" width="100" height="50" /> */}
+        <img src={puzzle} alt="puzzle" />
       </div>
       <div className="right_side">
         <h1 style={{ color: "white", marginBottom: 0 }}>

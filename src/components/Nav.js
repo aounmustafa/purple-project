@@ -8,7 +8,7 @@ const Nav = () => {
     { title: "About", link: "/" },
     { title: "UI/UX Design", link: "/uiux" },
     { title: "Illustration", link: "" },
-    { title: "Case Study", link: "" },
+    { title: "Case Study", link: "/casestudy" },
   ];
   return (
     <div className="nav">
