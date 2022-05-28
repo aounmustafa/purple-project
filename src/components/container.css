@@ -1,16 +1,13 @@
 .container{
     display: flex;
-    height: 100vh;
-    width: 100vw;
     flex-direction: column;
-    background-color: black;
+    height: 100%;
 }
 .container .navbar{
-    flex: 10%;
-    
+flex: 0 1 auto;
 }
 .container .outlet{
-    flex:90%;
+   flex: 1 1 auto;
+   
 
-    
 }

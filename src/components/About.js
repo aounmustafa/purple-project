@@ -1,11 +1,29 @@
 import React from "react";
 import "./about.css";
 import puzzle from "../assets/Unionpuzzle.png";
+import behance from "../assets/behance.svg";
+import instagram from "../assets/instagram.svg";
+import linkedin from "../assets/linkedin.svg";
+import twitter from "../assets/twitter.svg";
+
 const About = () => {
+  const iconList = [
+    { icon: instagram, link: "" },
+    { icon: twitter, link: "" },
+    { icon: linkedin, link: "" },
+    { icon: behance, link: "" },
+  ];
+
   return (
     <div className="about_container">
       <div className="left_side">
-        <img src={puzzle} alt="puzzle" />
+        <div className="puzzle">
+          <img
+            src={puzzle}
+            alt="puzzle"
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+          />
+        </div>
       </div>
       <div className="right_side">
         <h1 style={{ color: "white", marginBottom: 0 }}>
@@ -36,6 +54,15 @@ const About = () => {
             desertnightproductions@gmail.com
           </span>
         </p>
+        <div className="icons">
+          <ul className="row">
+            {iconList.map((element, key) => (
+              <li className="item">
+                <img style={{ width: "40px" }} src={element.icon} />
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
