@@ -30,25 +30,29 @@ button {
   padding: 3%;
 }
 
-.row_container {
-  background-color: wheat;
+.col_container {
+  /* background-color: wheat; */
   display: flex;
 }
-.row_1 {
+.col_1 {
   width: 30%;
-  background-color: red;
+  /* background-color: red; */
   margin-left: 7%;
 }
-.row_2 {
+.col_2 {
   width: 35%;
-  background-color: rgb(105, 250, 105);
+  /* background-color: rgb(105, 250, 105); */
   margin-left: 2%;
   margin-right: 2%;
   display: flex;
   flex-direction: column;
 }
-.row_3 {
+
+.col2_img {
+  object-fit: contain;
+}
+.col_3 {
   width: 30%;
-  background-color: rgb(119, 119, 242);
+  /* background-color: rgb(119, 119, 242); */
   margin-right: 7%;
 }
