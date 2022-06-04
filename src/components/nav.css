@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.nav ul{    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.ul .item{
+    color: white;
+    margin:7px;
+    
+}
+.ul li:hover{
+    margin-bottom: 1px;
+    cursor: pointer;
+    border-bottom: 2px solid #F187CB;
+    transition: all 2ms;
+    
+}
+#active{
+    border-bottom: 2px solid #F187CB;
+    margin-bottom: 1px;
+}

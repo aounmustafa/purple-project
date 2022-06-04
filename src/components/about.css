@@ -1,0 +1,39 @@
+.about_container {
+  display: flex;
+}
+
+.left_side {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.right_side {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  justify-content: center;
+}
+.left_side .puzzle {
+  height: 80%;
+  width: 80%;
+}
+p {
+  font-family: Helvetica;
+  font-weight: 600;
+  width: 70%;
+  margin-bottom: 2px;
+  text-align: justify;
+}
+
+.icons .row {
+  padding: 0;
+  display: flex;
+}
+.row > li {
+  margin-right: 5px;
+}
+.item > img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
