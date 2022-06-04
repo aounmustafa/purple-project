@@ -1,0 +1,26 @@
+/* @keyframes move {
+    0%   {position: absolute;
+        left: 0%;
+        top:0%;}
+    25%  {position: absolute;
+        left: 0%;
+        top:25%;}
+    50%  { position: absolute;
+        left: 0%;
+        top:50%;}
+    75%  {position: absolute;
+        left: 0%;
+        top:70%;     }
+    100% {position: absolute;
+        left: 0%;
+        top: 78%;
+      }}
+
+      @keyframes slider {
+        from {position: absolute;
+        top:45%;
+         left: 0%;}
+        to {position: absolute;
+            top:45%;
+        left: 20%;}
+      } */

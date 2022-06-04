@@ -1,5 +1,7 @@
 .about_container{
     display: flex;
+    padding:0
+
     
 }
 
@@ -7,6 +9,7 @@
     flex: 50%;
     display: flex;
     align-items: center;
+  
 
     
 }
@@ -16,32 +19,38 @@
     flex-direction: column;
     flex: 50%;
     justify-content: center;
+    
+
 }
 .left_side .puzzle{
-
+   
     height:80%;
-    width: 80%;
-    
+    width: 95%;
 }
 p{
     font-family: Helvetica;
     font-weight: 600;
     width: 70%;
     margin-bottom: 2px;
-    text-align: justify;
+    text-align:left
     
     }
 
-.icons .row{
+.icons{
+    margin-top:20vh
 
-    padding: 0;
+}
+.icons .row{
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 .row >li{
-    margin-right: 5px;
+    margin-right: 10px;
    
 }
 .item >img:hover{
+    
     transform: scale(1.05);
     cursor: pointer;
 }

@@ -5,9 +5,9 @@ const Nav = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const items = [
-    { title: "About", link: "/" },
+    { title: "About", link: "/about" },
     { title: "UI/UX Design", link: "/uiux" },
-    { title: "Illustration", link: "" },
+    { title: "Illustration", link: "/f" },
     { title: "Case Study", link: "/casestudy" },
   ];
   return (

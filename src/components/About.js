@@ -21,7 +21,11 @@ const About = () => {
           <img
             src={puzzle}
             alt="puzzle"
-            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "contain",
+            }}
           />
         </div>
       </div>
@@ -58,7 +62,7 @@ const About = () => {
           <ul className="row">
             {iconList.map((element, key) => (
               <li className="item">
-                <img style={{ width: "40px" }} src={element.icon} />
+                <img style={{ width: "30px" }} src={element.icon} />
               </li>
             ))}
           </ul>
