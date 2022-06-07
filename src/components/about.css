@@ -1,16 +1,27 @@
 .about_container{
+ 
     display: flex;
-    padding:0
-
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     
 }
-
+.line{
+    height: 3px;
+    border-radius: 9px;
+    background-color: #D4C0FF;
+    width: 90%;
+    margin-top: 2%;
+}
 .left_side{
     flex: 50%;
     display: flex;
     align-items: center;
-  
-
     
 }
 
@@ -18,7 +29,8 @@
     display: flex;
     flex-direction: column;
     flex: 50%;
-    justify-content: center;
+    height: 90%;
+    
     
 
 }
@@ -27,17 +39,19 @@
     height:80%;
     width: 95%;
 }
-p{
+.right_side > p{
     font-family: Helvetica;
-    font-weight: 600;
-    width: 70%;
+    font-weight: 550;
+    width: 90%;
     margin-bottom: 2px;
-    text-align:left
+    text-align:left;
+    font-size: 1.15vw;
     
     }
 
 .icons{
-    margin-top:20vh
+    margin-top: auto;
+    
 
 }
 .icons .row{

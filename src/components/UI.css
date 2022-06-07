@@ -1,0 +1,46 @@
+
+.UI_Container {
+  padding: 1rem;
+}
+
+.top_row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.rec1 {
+  display: flex;
+  width: 45%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 50px;
+  margin-bottom: 35px;
+}
+
+.rec2 {
+  display: flex;
+  width: 45%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.rec1_txt {
+  padding: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.rec1_btn {
+  background-color: #d4c0ff;
+  width: 40%;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}

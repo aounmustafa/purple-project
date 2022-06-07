@@ -7,7 +7,7 @@ const Nav = () => {
   const items = [
     { title: "About", link: "/about" },
     { title: "UI/UX Design", link: "/uiux" },
-    { title: "Illustration", link: "/f" },
+    { title: "Illustration", link: "/illustraion" },
     { title: "Case Study", link: "/casestudy" },
   ];
   return (

@@ -22,9 +22,9 @@ const FirstPage = () => {
         <img
           src={UnionLeft}
           style={{
-            // animationName: "move",
-            // animationDuration: "4s",
-            // animationTimingFunction: "linear",
+            animationName: "move",
+            animationDuration: "4s",
+            animationTimingFunction: "linear",
             position: "absolute",
             left: "0%",
             bottom: "0%",
@@ -66,8 +66,8 @@ const FirstPage = () => {
             position: "absolute",
             top: "45%",
             left: "20%",
-            // animationName: "slider",
-            // animationDuration: "3s",
+            animationName: "slider",
+            animationDuration: "3s",
           }}
         >
           <h1 style={headStyle}>Hello! I'm Samar.</h1>

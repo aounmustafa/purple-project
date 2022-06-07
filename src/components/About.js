@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import puzzle from "../assets/Unionpuzzle.png";
-import behance from "../assets/behance.svg";
+import behance from "../assets/behance.png";
 import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/linkedin.svg";
 import twitter from "../assets/twitter.svg";
@@ -36,6 +36,7 @@ const About = () => {
         <h4 style={{ color: "white", marginBottom: 0, marginTop: 0 }}>
           I am an Interaction Designer and Illustrator
         </h4>
+        <div className="line"></div>
         <p style={{ color: "white" }}>
           <span style={{ color: "#D4C0FF" }}>Designer </span> and{" "}
           <span style={{ color: "#D368C5" }}>illustrator </span>in pursuit of
@@ -62,7 +63,7 @@ const About = () => {
           <ul className="row">
             {iconList.map((element, key) => (
               <li className="item">
-                <img style={{ width: "30px" }} src={element.icon} />
+                <img style={{ width: "70%" }} src={element.icon} />
               </li>
             ))}
           </ul>
